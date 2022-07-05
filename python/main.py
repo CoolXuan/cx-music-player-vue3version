@@ -22,8 +22,8 @@ app.config['SESSION_PERMANENT'] = False
 def login():
     if session['username']&session['pwd']:
         return 'login-success'
-    else:
-        return "login-error"
+    else
+        
 '''
 @app.route('/ecode/<url>', methods=['POST'])
 def ecode(url):
